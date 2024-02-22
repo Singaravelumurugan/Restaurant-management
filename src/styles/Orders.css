@@ -1,0 +1,73 @@
+/* Common styles for both Orders and Orderslist pages */
+.common-container {
+  margin-left: 30%;
+  width: 40%;
+  height: 300px;
+  margin-top: 1px;
+  border: 2px solid #73ad21;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  transform: rotate(0deg);
+  align-items: center;
+  text-align: center;
+  font-size: medium;
+  justify-content: center;
+}
+
+.form-group {
+  padding: 2px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 1px;
+  border: 1px solid #ff0000;
+  border-radius: 50px;
+}
+
+.form-group select {
+  background-color: #fff;
+}
+
+.comp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.return,
+.sub {
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 100px;
+}
+
+.return {
+  background-color: #cb3309e9;
+}
+
+.return:hover {
+  background-color: #671c07e9;
+}
+
+.sub {
+  background-color: #059605e9;
+}
+
+.sub:hover {
+  background-color: #7ed10b;
+}
+.bill-button {
+  margin-left: 10px;
+}
+

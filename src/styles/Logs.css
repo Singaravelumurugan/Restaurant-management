@@ -1,0 +1,14 @@
+.box {
+    width: 400px; /* adjust this according to your preference */
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black; /* just for demonstration */
+    background-color: white;
+    
+}
+  h2{
+    text-align: center;
+  }
